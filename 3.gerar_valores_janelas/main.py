@@ -1,9 +1,3 @@
-# Extrair scores das sequencias transmembrana
-# Extrair scores das sequencias não transmembranas
-# Contar quantas vezes cada score aparece nas regiões transmembrana
-# Contar quantas vezes cada score aparece nas regiões não transmembrana
-# Guardas valores em tabelas
-
 import pandas as pd
 import os
 from numeros.precisao import diminuirPrecisaoDeNumeros
@@ -64,5 +58,5 @@ dfScoresTransmembrana = pd.DataFrame(
 dfScoresNaoTransmembrana = pd.DataFrame(
     {'SCORE_NAO_TRANSMEMBRANA': scoresSequenciasNaoTransmembrana})
 
-dfScoresTransmembrana.to_csv(dir_path+'/../output/valores_janelas/scores_sec_transmembrana.csv')
-dfScoresNaoTransmembrana.to_csv(dir_path+'/../output/valores_janelas/scores_sec_nao_transmembrana.csv')
+dfScoresTransmembrana.to_csv(dir_path+'/../output/valores_janelas/scores_sec_transmembrana.csv', index=False)
+dfScoresNaoTransmembrana.to_csv(dir_path+'/../output/valores_janelas/scores_sec_nao_transmembrana.csv', index=False)
