@@ -1,1 +1,12 @@
-{"regiaoTransmembrana": {"pontoDeCorte": 1.2524816750269832, "media": 10.75041311086311, "desvioPadrao": 4.748965717918064}, "regiaoNaoTransmembrana": {"pontoDeCorte": -0.07935265704977645, "media": -11.426640156226524, "desvioPadrao": 5.673643749588374}}
+{
+    "regiaoTransmembrana": {
+        "pontoDeCorte": 1.2524816750269832, 
+        "media": 10.75041311086311, 
+        "desvioPadrao": 4.748965717918064
+    }, 
+    "regiaoNaoTransmembrana": {
+        "pontoDeCorte": -0.07935265704977645, 
+        "media": -11.426640156226524, 
+        "desvioPadrao": 5.673643749588374
+    }
+}
