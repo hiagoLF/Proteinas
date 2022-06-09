@@ -3,7 +3,6 @@ import os
 from numeros.precisao import diminuirPrecisaoDeNumeros
 from gerar.dicionario import gerarDicionarioDoDataFrame
 from score.calcularScoresDeSequencias import calcularScoresDasSequencias
-from gerar.resumo import resumirScores
 import matplotlib.pyplot as plt
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
